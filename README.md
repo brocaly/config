@@ -42,6 +42,8 @@ Recording: OBS
 
 Torrent: transmission
 
+Reader: zathura
+
 ---
 ## Config files
 [init.vim (.vimrc)](init.vim)
