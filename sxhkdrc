@@ -1,0 +1,31 @@
+# Many binds in dwm
+
+# Web
+super + shift + b
+    brave
+
+super + shift + t
+    surf tetris.com/play-tetris
+
+super + f
+    firefox
+
+super + w
+    surf duckduckgo.com
+
+super + c
+    surf lichess.org
+
+super + y
+    surf youtube.com
+
+# Games
+super + a
+	discord
+
+super + s
+	steam
+
+# Programming
+super + v
+    code
