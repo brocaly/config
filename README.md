@@ -7,7 +7,7 @@ Most stuff from:
 - https://wiki.installgentoo.com/wiki/GNU/Linux_ricing#What_does_.2Fg.2F_use.3F
 
 ---
-OS: Arch / Elementary OS
+OS: Arch (Elementary OS laptop)
 
 WM: dwm (with dmenu)
 
