@@ -6,18 +6,11 @@ Most stuff from:
 - https://github.com/lukesmithxyz/voidrice
 - https://wiki.installgentoo.com/wiki/GNU/Linux_ricing#What_does_.2Fg.2F_use.3F
 
+## Importanter
 ---
 OS: Arch (Elementary OS laptop)
 
 WM: dwm (with dmenu)
-
-dwm patches:
-- centeredwindowname
-- fakefullscreen
-- fibonacci
-- fullgaps
-- gridmode
-- pertag
 
 Shell: zsh (ohmyzsh & powerlevel10k prompt)
 
@@ -25,24 +18,32 @@ Terminal: st (https://github.com/LukeSmithxyz/st)
 
 Editor: neovim
 
+## Unimportanter
 ---
-Keybinds: sxhkd
+Browser: brave
 
-Browser: surf / firefox / brave
-
-Files: ranger / nautilus
-
-Video: mpv
-
-Images: sxiv / feh
+Images: sxiv
 
 Screenshot: scrot
 
+Video: mpv
+
 Recording: OBS
+
+Reader: zathura
+
+Keybinds: sxhkd
+
+Files: nautilus / ranger
 
 Torrent: transmission
 
-Reader: zathura
+---
+## Notes
+
+DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag
+
+Surf browser used in some keybinds.
 
 ---
 ## Config files
