@@ -14,3 +14,8 @@ set autoindent
 set splitbelow
 set splitright
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Keybinds
+let let mapleader = "\<Space>"
+
+nnoremap <leader>f :Prettier<Cr>
