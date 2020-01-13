@@ -24,7 +24,7 @@ Editor: neovim
 
 Browser: brave
 
-Images: sxiv
+Images: feh
 
 Screenshot: scrot
 
