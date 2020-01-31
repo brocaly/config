@@ -7,9 +7,10 @@ Most stuff from:
 - https://wiki.installgentoo.com/wiki/GNU/Linux_ricing#What_does_.2Fg.2F_use.3F
 
 
-## Importanter
 
-OS: Arch (Elementary OS laptop)
+## Main
+
+OS: Arch
 
 WM: dwm (with dmenu)
 
@@ -20,7 +21,8 @@ Terminal: st (https://github.com/LukeSmithxyz/st)
 Editor: neovim
 
 
-## Unimportanter
+
+## Programs
 
 Browser: brave
 
@@ -36,21 +38,12 @@ Reader: zathura
 
 Keybinds: sxhkd
 
-Files: nautilus / ranger
+Files: nautilus / lf
 
 Torrent: transmission
 
 
-## Notes
+
+## Extras
 
 DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag
-
-Surf browser used in some keybinds.
-
-
-## Config files
-[init.vim (.vimrc)](init.vim)
-
-[.zshrc](.zshrc)
-
-[dwm's config.h](config.h)
