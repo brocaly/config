@@ -14,9 +14,9 @@ OS: Arch
 
 WM: dwm (with dmenu)
 
-Shell: zsh (ohmyzsh & powerlevel10k prompt)
+Shell: zsh (powerlevel10k prompt)
 
-Terminal: st (https://github.com/LukeSmithxyz/st)
+Terminal: kitty
 
 Editor: neovim
 
