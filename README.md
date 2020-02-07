@@ -4,6 +4,8 @@ Copy everything you need to home directory, everything is already in the correct
 
 
 
+
+
 ## Main
 
 OS: Arch
@@ -15,6 +17,8 @@ Shell: zsh (p10k prompt)
 Terminal: kitty
 
 Editor: neovim
+
+
 
 
 
@@ -37,6 +41,8 @@ Keybinds: sxhkd
 Torrent: transmission
 
 Files: ranger
+
+
 
 
 
