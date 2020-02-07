@@ -1,10 +1,6 @@
-# My programs and config files
-Most stuff from:
-- https://suckless.org/
-- http://harmful.cat-v.org/software/
-- https://lukesmith.xyz/programs.html
-- https://github.com/lukesmithxyz/voidrice
-- https://wiki.installgentoo.com/wiki/GNU/Linux_ricing#What_does_.2Fg.2F_use.3F
+## How to install
+
+Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages" file with your package manager. Programs in the "compile" folder must be manually compiled (make clean install).
 
 
 
@@ -14,7 +10,7 @@ OS: Arch
 
 WM: dwm (with dmenu)
 
-Shell: zsh (powerlevel10k prompt)
+Shell: zsh (p10k prompt)
 
 Terminal: kitty
 
@@ -26,24 +22,24 @@ Editor: neovim
 
 Browser: brave
 
-Images: feh
-
-Screenshot: scrot
-
 Video: mpv
 
-Recording: OBS
+Images: feh
+
+Audio: mpd + ncmpcpp
+
+Screenshot: scrot
 
 Reader: zathura
 
 Keybinds: sxhkd
 
-Files: nautilus / lf
-
 Torrent: transmission
 
+Files: ranger
 
 
-## Extras
 
-DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag
+## Extra info
+
+DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag. Here the patches are already applied.

@@ -1,0 +1,36 @@
+# General
+super + Return
+	kitty
+super + shift + r + h
+	killall sxhkd & ; \
+	sxhkd
+super + n
+	simplenote
+super + c
+	/usr/bin/pulseaudio-ctl down
+super + v
+	/usr/bin/pulseaudio-ctl up
+super + shift + s
+	brave </dev/null &>/dev/null & ; \
+	discord </dev/null &>/dev/null & ; \
+	steam </dev/null &>/dev/null & ;
+super + shift + l
+	i3lock
+
+# mpc
+super + shift + p
+	mpc toggle
+
+# Web
+super + w
+	brave
+super + f
+	firefox
+
+# Games
+super + s
+	steam
+super + d
+	discord
+super + shift + m
+	minecraft-launcher
