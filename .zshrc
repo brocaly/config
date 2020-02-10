@@ -12,19 +12,17 @@ export READER="zathura"
 export FILE="lf"
 export IMAGE="feh"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export ZSH="/home/siim/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 export ARCHFLAGS="-arch x86_64"
 ZSH_THEME=powerlevel10k/powerlevel10k
 HISTFILE=~/.cache/zsh_history
 CASE_SENSITIVE="false"
 
-# Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 ### ALIASES
 alias cdnc="cd ~/Documents/programs/node/course/"
-
 # General
 alias v="nvim"
 alias i="feh"
@@ -35,6 +33,7 @@ alias p="yay -S"
 alias c="clear"
 alias cls="clear"
 alias cu="curl"
+alias cdp="cd ~/Documents/programs"
 alias l="lsd"
 alias la="lsd -A"
 alias ll="lsd -l"
@@ -65,17 +64,9 @@ alias exr="nvim ~/.xinitrc"
 alias ezr="nvim ~/.zshrc"
 
 # Git
-# alias gc="git clone"
-# alias gpu="git push"
-# alias gpl="git pull"
+alias gs="git status"
+alias gc="git clone"
+alias gpu="git push"
+alias gpl="git pull"
 
-# Programming
-alias cdp="cd ~/Documents/programs"
-alias ve="source ~/Documents/programs/py/django/virtenv/bin/activate"
-alias cdd="cd ~/Documents/programs/py/django/ && ve && clear"
-alias cddp="cd /usr/local/lib/python3.7/dist-packages/django"
-alias ee="deactivate && cd && clear"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /home/siim/.config/broot/launcher/bash/br
