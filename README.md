@@ -4,8 +4,6 @@ Copy everything you need to home directory, everything is already in the correct
 
 
 
-
-
 ## Main
 
 OS: Arch
@@ -20,11 +18,11 @@ Editor: neovim
 
 
 
-
-
 ## Programs
 
 Browser: brave
+
+Files: lf
 
 Video: mpv
 
@@ -39,10 +37,6 @@ Reader: zathura
 Keybinds: sxhkd
 
 Torrent: transmission
-
-Files: ranger
-
-
 
 
 
