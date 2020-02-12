@@ -1,8 +1,6 @@
 ## How to install
 
-Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages" file with your package manager. Programs in the "compile" folder must be manually compiled (make clean install).
-
-
+Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages" file with your package manager. Programs in the "compile" folder must be manually compiled (sudo make clean install).
 
 
 
@@ -20,11 +18,11 @@ Editor: neovim
 
 
 
-
-
 ## Programs
 
 Browser: brave
+
+Files: lf
 
 Video: mpv
 
@@ -39,10 +37,6 @@ Reader: zathura
 Keybinds: sxhkd
 
 Torrent: transmission
-
-Files: ranger
-
-
 
 
 
