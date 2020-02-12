@@ -17,9 +17,10 @@ let mapleader = "\<Space>"
 nnoremap <leader>g :Goyo<Cr>
 nnoremap <leader>f :Prettier<Cr>:w<Cr>
 nnoremap <leader>p :Prettier<Cr>
-nnoremap <leader>s :w<Cr>
 nnoremap <leader>R :so $MYVIMRC<Cr>
-nnoremap <leader>q :q!<Cr>
+nnoremap <leader>w :w<Cr>
+nnoremap <leader>q :x!<Cr>
+nnoremap <leader>Q :q!<Cr>
 nnoremap j gj
 nnoremap k gk
 nnoremap <C-h> <C-w>h

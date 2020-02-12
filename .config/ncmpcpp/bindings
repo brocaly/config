@@ -543,10 +543,16 @@
 #
 
 def_key "h"
-  previous_column
+	jump_to_parent_directory
 def_key "j"
   scroll_down
 def_key "k"
   scroll_up
 def_key "l"
-  next_column
+  enter_directory
+def_key "l"
+  toggle_output
+def_key "l"
+  run_action
+def_key "l"
+  play_item

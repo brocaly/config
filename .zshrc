@@ -25,11 +25,14 @@ source $ZSH/oh-my-zsh.sh
 alias cdnc="cd ~/Documents/programs/node/course/"
 # General
 alias v="nvim"
+alias sv="sudo nvim"
 alias i="feh"
 alias m="mpv"
 alias n="ncmpcpp"
+alias d="date"
 alias o="yay -Rnss"
 alias p="yay -S"
+alias r="ranger"
 alias c="clear"
 alias cls="clear"
 alias cu="curl"
@@ -64,9 +67,9 @@ alias exr="nvim ~/.xinitrc"
 alias ezr="nvim ~/.zshrc"
 
 # Git
-alias gs="git status"
-alias gc="git clone"
-alias gpu="git push"
-alias gpl="git pull"
+# alias gs="git status"
+# alias gpu="git push"
+# alias gpl="git pull"
+# alias gc="git clone"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
