@@ -1,8 +1,6 @@
 ## How to install
 
-Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages" file with your package manager. Programs in the "compile" folder must be manually compiled (make clean install).
-
-
+Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages" file (with yay on arch). Programs in the "compile" folder must be manually compiled (make clean install).
 
 
 
@@ -17,8 +15,6 @@ Shell: zsh (p10k prompt)
 Terminal: kitty
 
 Editor: neovim
-
-
 
 
 
@@ -41,8 +37,6 @@ Keybinds: sxhkd
 Torrent: transmission
 
 Files: ranger
-
-
 
 
 
