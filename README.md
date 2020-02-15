@@ -3,7 +3,6 @@
 Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages.txt" file (yay -S --needed - < packages.txt). Programs in the "compile" folder must be manually compiled (sudo make clean install).
 
 
-
 ## Main
 
 OS: Arch
@@ -15,7 +14,6 @@ Shell: zsh (p10k prompt)
 Terminal: kitty
 
 Editor: neovim
-
 
 
 ## Programs
@@ -38,6 +36,7 @@ Keybinds: sxhkd
 
 Torrent: transmission
 
+Files: ranger
 
 
 ## Extra info

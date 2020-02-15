@@ -1,1 +1,1 @@
-kitty neovim brave-bin mpv feh scrot zathura sxhkd transmission-gtk ranger
+base-devel git xorg lsd kitty neovim brave-bin mpd mpv feh scrot zathura sxhkd transmission-gtk ranger neofetch nodejs npm xorg-xinit ncmpcpp ncpamixer discord
