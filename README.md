@@ -18,9 +18,9 @@ Editor: neovim
 
 ## Programs
 
-Browser: brave
+Browser: vivaldi
 
-Files: lf
+Files: ranger
 
 Video: mpv
 
@@ -35,8 +35,6 @@ Reader: zathura
 Keybinds: sxhkd
 
 Torrent: transmission
-
-Files: ranger
 
 
 ## Extra info
