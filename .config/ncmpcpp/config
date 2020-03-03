@@ -1,8 +1,3 @@
-##############################################################################
-## This is the example configuration file. Copy it to $HOME/.ncmpcpp/config ##
-## or $XDG_CONFIG_HOME/ncmpcpp/config and set up your preferences.          ##
-##############################################################################
-#
 ncmpcpp_directory = ~/.config/ncmpcpp
 #
 ##
@@ -12,7 +7,7 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 #
 lyrics_directory = ~/.local/share/lyrics
 #
-##### connection settings #####
+##### connection settings
 #
 #mpd_host = localhost
 #
@@ -25,8 +20,10 @@ lyrics_directory = ~/.local/share/lyrics
 mpd_music_dir = "~/Music"
 #
 #mpd_crossfade_time = 5
-#
-##### music visualizer #####
+
+
+
+##### music visualizer
 ##
 ## Note: In order to make music visualizer work you'll need to use mpd fifo
 ## output, whose format parameter has to be set to 44100:16:1 for mono
@@ -54,7 +51,7 @@ mpd_music_dir = "~/Music"
 ##
 ## If you set format to 44100:16:2, make it 'yes'.
 ##
-#visualizer_in_stereo = yes
+visualizer_in_stereo = yes
 #
 ##
 ## Note: Below parameter defines how often ncmpcpp has to "synchronize"
@@ -71,19 +68,17 @@ mpd_music_dir = "~/Music"
 ##
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
-##
 visualizer_type = spectrum
-#
 #visualizer_look = ●卐
 #visualizer_look = 卐
-#
 #visualizer_color = blue, cyan, green, yellow, magenta, red
 #
 ## Alternative subset of 256 colors for terminals that support it.
-##
 #visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
-#
-##### system encoding #####
+
+
+
+##### system encoding
 ##
 ## ncmpcpp should detect your charset encoding but if it failed to do so, you
 ## can specify charset encoding you are using here.
@@ -96,8 +91,10 @@ visualizer_type = spectrum
 ##
 #
 #system_encoding = ""
-#
-##### delays #####
+
+
+
+##### delays
 #
 ## Time of inactivity (in seconds) after playlist highlighting will be disabled
 ## (0 = always on).
@@ -108,7 +105,7 @@ visualizer_type = spectrum
 ##
 message_delay_time = 1
 #
-##### song format #####
+##### song format
 ##
 ## For a song format you can use:
 ##
@@ -219,8 +216,10 @@ current_item_inactive_column_suffix = $/r$(end)
 #browser_sort_mode = name
 #
 #browser_sort_format = {%a - }{%t}|{%f} {(%l)}
-#
-##### columns settings #####
+
+
+
+##### columns settings
 ##
 ## syntax of song columns list format is "column column etc."
 ##
@@ -256,8 +255,10 @@ current_item_inactive_column_suffix = $/r$(end)
 ##
 #
 #song_columns_list_format = (20)[]{a} (6f)[green]{NE} (50)[white]{t|f:Title} (20)[cyan]{b} (7f)[magenta]{l}
-#
-##### various settings #####
+
+
+
+##### various settings
 #
 ##
 ## Note: Custom command that will be executed each time song changes. Useful for
@@ -470,8 +471,10 @@ external_editor = vim
 ## Note: set to yes if external editor is a console application.
 ##
 use_console_editor = yes
-#
-##### colors definitions #####
+
+
+
+##### colors definitions
 ##
 ## It is possible to set a background color by setting a color value
 ## "<foreground>_<background>", e.g. red_black will set foregound color to red

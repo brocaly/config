@@ -10,6 +10,7 @@ set tabstop=2 shiftwidth=2
 set autoindent smartindent
 set splitright splitbelow
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+" autocmd VimEnter * NERDTree
 
 " Keybinds
 let mapleader = "\<Space>"

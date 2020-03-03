@@ -9,20 +9,27 @@ super + c
 super + v
 	/usr/bin/pulseaudio-ctl up ; \
 	~/.config/scripts/sbu.sh
+super + q
+	kitty -e qalc
+super + r
+	kitty -e ranger
 super + w
 	brave
+super + <
+	mpc next
+super + >
+	mpc prev
 super + shift + l
-	i3lock
+	i3lock -efk -i ~/Pictures/wallpapers/wp2.jpg
 super + shift + s
 	brave </dev/null &>/dev/null & ; \
 	discord </dev/null &>/dev/null & ; \
 	steam </dev/null &>/dev/null &
 super + shift + r + h
-	killall sxhkd & ; sxhkd
-super + shift + õ
-	killall screenkey
-super + shift + ü
-	screenkey </dev/null &>/dev/null &
+	killall sxhkd & ; \
+	sxhkd </dev/null &>/dev/null &
+super + alt + p
+	systemctl suspend
 
 # mpc
 super + shift + p
@@ -35,3 +42,10 @@ super + s
 	steam
 super + shift + m
 	minecraft-launcher
+
+# Programming
+super + shift + o
+	kitty -d ~/Documents/programs/node/course/8.\ Using\ MongoDB\ with\ Mongoose </dev/null &>/dev/null & ; \
+	kitty -d ~/Documents/programs/node/course/complete-node-bootcamp/4-natours/after-section-08/ </dev/null &>/dev/null & ; \
+	ndb ~/Documents/programs/node/course/complete-node-bootcamp/4-natours/after-section-08/ </dev/null &>/dev/null & ; \
+	postman </dev/null &>/dev/null &

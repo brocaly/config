@@ -6,19 +6,17 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # scripts
 ~/.config/scripts/sb.sh </dev/null &>/dev/null &
-xrdb ~/.Xresources &
 
-# start programs
+# programs
 mpd &
 sxhkd &
 redshift &
 xcompmgr &
 setxkbmap ee &
-feh --bg-scale ~/Pictures/wallpapers/wp.jpg
+feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
 brave &
 discord &
 kitty -e ncmpcpp &
-kitty -e ncpamixer &
 
 dwm
