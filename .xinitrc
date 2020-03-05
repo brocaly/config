@@ -17,6 +17,5 @@ feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
 brave &
 discord &
-kitty -e ncmpcpp &
 
 dwm
