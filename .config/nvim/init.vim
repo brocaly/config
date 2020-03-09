@@ -11,6 +11,8 @@ set autoindent smartindent
 set splitright splitbelow
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " autocmd VimEnter * NERDTree
+set undofile
+set undodir=~/.config/nvim
 
 " Keybinds
 let mapleader = "\<Space>"
