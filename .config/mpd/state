@@ -1,0 +1,29 @@
+sw_volume: 100
+audio_device_state:1:alsa for audio soundcard
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 13
+time: 88.299000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:rap/eminem/sslp/My Name Is.mp3
+1:rap/eminem/sslp/Brain Damage.mp3
+2:rap/eminem/sslp/If I Had.mp3
+3:rap/eminem/sslp/97' Bonnie & Clyde.mp3
+4:rap/eminem/sslp/Role Model.mp3
+5:rap/eminem/sslp/My Fault.mp3
+6:rap/eminem/sslp/Cum on Everybody.mp3
+7:rap/eminem/sslp/Rock Bottom.mp3
+8:rap/eminem/sslp/Just Don't Give a Fuck.mp3
+9:rap/eminem/sslp/As the World Turns.mp3
+10:rap/eminem/sslp/I'm Shady.mp3
+11:rap/eminem/sslp/Bad Meets Evil (feat. Royce 59).mp3
+12:rap/eminem/sslp/Still Don't Give a Fuck.mp3
+13:rap/eminem/Hellbound.mp3
+playlist_end
