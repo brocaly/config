@@ -1,1 +1,5 @@
-linux linux-firmware base
+linux linux-firmware base base-devel grub networkmanager dhcpcd
+git go zsh kitty pulseaudio pulseaudio-alsa lib32-libpulse lib32-alsa-plugins alsa-utils
+xorg xorg-xinit nvidia nvidia-utils lib32-nvidia-utils
+brave discord steam ufetch feh mpd mpv ncmpcpp ncpamixer
+ttf-liberation noto-fonts-emoji font-mathematica ttf-inconsolata
