@@ -1,5 +1,5 @@
 linux linux-firmware base base-devel grub networkmanager dhcpcd
 git node npm python go zsh kitty pulseaudio pulseaudio-alsa lib32-libpulse lib32-alsa-plugins alsa-utils
-xorg xorg-xinit nvidia nvidia-utils lib32-nvidia-utils pulseaudio-ctl
+xorg xorg-xinit nvidia nvidia-utils lib32-nvidia-utils pulseaudio-ctl pavucontrol
 brave discord steam ufetch feh mpd mpc mpv ncmpcpp ncpamixer 
 ttf-liberation noto-fonts-emoji font-mathematica ttf-inconsolata
