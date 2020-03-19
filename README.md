@@ -18,7 +18,7 @@ Editor: neovim
 
 ## Programs
 
-Browser: vivaldi
+Browser: brave
 
 Files: ranger
 

@@ -21,6 +21,8 @@ super + >
 	mpc prev
 super + shift + l
 	i3lock -efk -i ~/Pictures/wallpapers/wp2.jpg
+super + shift + n
+	kitty -e ncmpcpp
 super + shift + s
 	brave </dev/null &>/dev/null & ; \
 	discord </dev/null &>/dev/null & ; \
