@@ -5,7 +5,7 @@ source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
 export EDITOR="nvim"
 export TERMINAL="kitty"
-export BROWSER="vivaldi"
+export BROWSER="brave"
 export READER="zathura"
 export FILE="ranger"
 export IMAGE="feh"

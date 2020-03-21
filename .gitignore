@@ -1,3 +1,5 @@
 .config/mpd/log
 .config/nvim/plugged/*
+.config/mpd/pid
+.config/mpd/state
 compile/dwm/GPUCache
