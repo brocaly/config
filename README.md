@@ -13,7 +13,7 @@ Shell: zsh (p10k prompt)
 
 Terminal: kitty
 
-Editor: neovim
+Editor: neovim, vscode
 
 
 ## Programs
