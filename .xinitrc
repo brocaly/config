@@ -15,7 +15,7 @@ xcompmgr &
 setxkbmap ee &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
-# brave &
-# discord &
+brave &
+discord &
 
 dwm
