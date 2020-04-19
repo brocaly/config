@@ -43,4 +43,4 @@ DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, 
 
 Neovim plugins included in .config folder.
 
-VSCode extensions: Atom One Dark Theme, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, Prettier Now, Rainbow Brackets, Sass, Simple React Snippets
+VSCode extensions: Atom One Dark Theme, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, Prettier, Rainbow Brackets, Sass, Simple React Snippets
