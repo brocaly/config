@@ -27,7 +27,7 @@ super + shift + l
 	i3lock -c 333333
 super + shift + o
 	libreoffice
-super + shift + r + h
+super + shift + r
 	killall sxhkd & ; \
 	sxhkd </dev/null &>/dev/null &
 super + alt + c
