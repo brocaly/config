@@ -19,8 +19,12 @@ super + <
 	mpc next
 super + >
 	mpc prev
+super + shift + f
+	freecad
+super + shift + h
+	kitty -e htop
 super + shift + l
-	i3lock -c 000000
+	i3lock -c 333333
 super + shift + o
 	libreoffice
 super + shift + r + h
@@ -29,7 +33,7 @@ super + shift + r + h
 super + alt + c
 	code
 super + alt + p
-	i3lock & ; \
+	i3lock -c 333333 & ; \
 	systemctl suspend
 
 # mpc
