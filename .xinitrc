@@ -8,7 +8,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 ~/.config/scripts/sb.sh </dev/null &>/dev/null &
 
 # programs
-mpd &
 sxhkd &
 redshift &
 xcompmgr &
