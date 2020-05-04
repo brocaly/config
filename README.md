@@ -41,6 +41,10 @@ Torrent: transmission
 
 DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag. Here the patches are already applied.
 
-Neovim plugins included in .config folder.
+Neovim plugins: in .config folder.
 
-VSCode extensions: Atom One Dark Theme, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, Prettier, Rainbow Brackets, Sass, Simple React Snippets
+Brave addons: Enhancer for YT, Stylus.
+
+VSCode extensions: Atom One Dark Theme, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, Prettier, Rainbow Brackets, Sass, Simple React Snippets.
+
+Dark mode for most apps and websites.
