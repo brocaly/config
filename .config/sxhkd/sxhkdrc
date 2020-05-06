@@ -19,6 +19,8 @@ super + <
 	mpc next
 super + >
 	mpc prev
+super + shift + n
+	kitty -e ncmpcpp
 super + shift + b
 	nautilus
 super + shift + f
