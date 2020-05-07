@@ -48,6 +48,6 @@ super + shift + p
 super + d
 	discord
 super + s
-	steam
+	steam -console
 super + shift + m
 	minecraft-launcher
