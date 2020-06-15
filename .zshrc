@@ -2,6 +2,7 @@ ufetch
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+eval "$(gh completion -s zsh)"
 
 export EDITOR="nvim"
 export TERMINAL="kitty"
@@ -42,6 +43,7 @@ alias y="yay"
 alias z="zathura"
 alias cg="ps aux | grep"
 alias pg="pacman -Qe | grep"
+alias cgc="gcloud compute ssh --project carscape --zone europe-west3-c dev-server"
 
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
@@ -62,6 +64,7 @@ alias evc="nvim ~/.config/nvim/init.vim"
 alias evp="nvim ~/.config/nvim/plugins.vim"
 alias exr="nvim ~/.xinitrc"
 alias ezr="nvim ~/.zshrc"
+alias ecg="nvim /mnt/hdd/SteamLibrary/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/cfg/autoexec.cfg"
 
 # Git
 # alias gs="git status"

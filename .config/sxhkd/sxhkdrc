@@ -9,6 +9,8 @@ super + c
 super + v
 	/usr/bin/pulseaudio-ctl up ; \
 	~/.config/scripts/sbu.sh
+super + e
+	rofi -show run
 super + q
 	kitty -e qalc
 super + r
@@ -47,8 +49,6 @@ super + shift + p
 	mpc toggle
 
 # Games
-super + d
-	discord
 super + s
 	steam -console
 super + shift + m
