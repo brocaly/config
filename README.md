@@ -45,6 +45,6 @@ Neovim plugins: in .config folder.
 
 Brave addons: Enhancer for YT, Stylus.
 
-VSCode extensions: Atom One Dark Theme, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, Prettier, Rainbow Brackets, Sass, Simple React Snippets.
+VSCode extensions: Better Comments, Bracket Pair Colorizer 2, ES7 React/Redux/GraphQL/React-Native snippets, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, One Dark Theme, Prettier Now.
 
 Dark mode for most apps and websites.
