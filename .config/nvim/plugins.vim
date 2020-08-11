@@ -2,6 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" Theme
 	Plug 'morhetz/gruvbox'
+	Plug 'joshdick/onedark.vim'
 
 	Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 	Plug 'scrooloose/nerdtree'

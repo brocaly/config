@@ -4,10 +4,10 @@ super + Return
 super + n
 	simplenote
 super + c
-	/usr/bin/pulseaudio-ctl down ; \
+	/usr/bin/pulseaudio-ctl down 2 ; \
 	~/.config/scripts/sbu.sh
 super + v
-	/usr/bin/pulseaudio-ctl up ; \
+	/usr/bin/pulseaudio-ctl up 2 ; \
 	~/.config/scripts/sbu.sh
 super + e
 	rofi -show run
@@ -21,12 +21,14 @@ super + <
 	mpc next
 super + >
 	mpc prev
-super + shift + n
-	kitty -e ncmpcpp
 super + shift + b
 	nautilus
+super + shift + g
+	glava --force-mod=radial
 super + shift + f
 	freecad
+super + shift + n
+	kitty -e ncmpcpp
 super + shift + h
 	kitty -e htop
 super + shift + l
@@ -40,16 +42,18 @@ super + shift + s
 	scrot -p
 super + alt + c
 	code
-super + alt + p
+super + shift + control + alt + p
 	i3lock -c 333333 & ; \
 	systemctl suspend
 
 # mpc
 super + shift + p
 	mpc toggle
+super + shift + odiaeresis
+	mpc prev
+super + shift + adiaeresis
+	mpc next
 
 # Games
 super + s
 	steam -console
-super + shift + m
-	minecraft-launcher
