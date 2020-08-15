@@ -1,4 +1,3 @@
-ufetch
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -20,10 +19,10 @@ CASE_SENSITIVE="false"
 plugins=()
 source $ZSH/oh-my-zsh.sh
 
-### ALIASES
-# General
+# ALIASES
+alias s="startx"
+
 alias v="nvim"
-alias sv="sudo nvim"
 alias i="feh"
 alias m="mpv"
 alias n="ncmpcpp"
@@ -36,7 +35,6 @@ alias l="lsd"
 alias la="lsd -A"
 alias ll="lsd -l"
 alias lla="lsd -Al"
-alias s="startx"
 alias q="exit"
 alias t="touch"
 alias y="yay"
@@ -44,12 +42,10 @@ alias z="zathura"
 alias u="yay"
 alias cg="ps aux | grep"
 alias pg="pacman -Qe | grep"
-alias cgc="gcloud compute ssh --project carscape --zone europe-west3-c dev-server"
+alias cam="ssh -i ~/Documents/backups/ssh/main-instance.pem admin@ec2-18-159-132-118.eu-central-1.compute.amazonaws.com"
 
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
-alias cdnc="cd ~/Documents/programs/node/course/"
-alias cdhoi="cd ~/Documents/programs/py/hoi"
 alias cdpac="cd ~/Downloads/packages"
 
 alias ewc="nvim ~/Downloads/packages/dwm/config.h"
@@ -63,12 +59,7 @@ alias evc="nvim ~/.config/nvim/init.vim"
 alias evp="nvim ~/.config/nvim/plugins.vim"
 alias exr="nvim ~/.xinitrc"
 alias ezr="nvim ~/.zshrc"
-alias ecg="nvim /mnt/hdd/SteamLibrary/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/cfg/autoexec.cfg"
-
-# Git
-# alias gs="git status"
-# alias gpu="git push"
-# alias gpl="git pull"
-# alias gc="git clone"
+alias ecc="nvim ~/.config/picom/picom.conf"
+alias ecs="nvim /mnt/hdd/SteamLibrary/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/cfg/autoexec.cfg"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

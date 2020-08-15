@@ -11,8 +11,8 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 mpd &
 sxhkd &
 redshift &
-xcompmgr &
 setxkbmap ee &
+picom --config ~/.config/picom/picom.conf &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
 brave &

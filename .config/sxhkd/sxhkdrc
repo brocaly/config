@@ -9,8 +9,6 @@ super + c
 super + v
 	/usr/bin/pulseaudio-ctl up 2 ; \
 	~/.config/scripts/sbu.sh
-super + e
-	rofi -show run
 super + q
 	kitty -e qalc
 super + r
@@ -32,7 +30,7 @@ super + shift + n
 super + shift + h
 	kitty -e htop
 super + shift + l
-	i3lock -c 333333
+	slock
 super + shift + o
 	libreoffice
 super + shift + r
@@ -43,7 +41,7 @@ super + shift + s
 super + alt + c
 	code
 super + shift + control + alt + p
-	i3lock -c 333333 & ; \
+	slock & ; \
 	systemctl suspend
 
 # mpc
