@@ -1,3 +1,4 @@
+pfetch
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block, everything else may go below.
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -43,6 +44,9 @@ alias u="yay"
 alias cg="ps aux | grep"
 alias pg="pacman -Qe | grep"
 alias cam="ssh -i ~/Documents/backups/ssh/main-instance.pem admin@ec2-18-159-132-118.eu-central-1.compute.amazonaws.com"
+alias kil="/home/siim/.config/scripts/kill.sh"
+
+#alias knm="kill $(netstat -tulpn | grep 3010 | awk '{print $7}' | rev | cut -c 6- | rev)"
 
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"

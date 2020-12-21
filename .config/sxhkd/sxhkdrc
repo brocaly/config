@@ -9,8 +9,6 @@ super + c
 super + v
 	/usr/bin/pulseaudio-ctl up 2 ; \
 	~/.config/scripts/sbu.sh
-super + q
-	kitty -e qalc
 super + r
 	kitty -e ranger
 super + w
@@ -20,11 +18,17 @@ super + <
 super + >
 	mpc prev
 super + shift + b
-	nautilus
-super + shift + g
-	glava --force-mod=radial
+	blender
+super + shift + c
+	kitty -e qalc
 super + shift + f
 	freecad
+super + shift + g
+	glava --force-mod=radial
+super + shift + i
+	brave --incognito
+super + shift + m
+	lmms
 super + shift + n
 	kitty -e ncmpcpp
 super + shift + h
@@ -38,6 +42,8 @@ super + shift + r
 	sxhkd </dev/null &>/dev/null &
 super + shift + s
 	scrot -p
+super + shift + u
+	unityhub
 super + alt + c
 	code
 super + shift + control + alt + p
