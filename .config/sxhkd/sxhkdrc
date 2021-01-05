@@ -27,8 +27,6 @@ super + shift + g
 	glava --force-mod=radial
 super + shift + i
 	brave --incognito
-super + shift + m
-	lmms
 super + shift + n
 	kitty -e ncmpcpp
 super + shift + h
@@ -44,8 +42,10 @@ super + shift + s
 	scrot -p
 super + shift + u
 	unityhub
+
 super + alt + c
 	code
+
 super + shift + control + alt + p
 	slock & ; \
 	systemctl suspend

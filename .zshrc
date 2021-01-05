@@ -50,6 +50,7 @@ alias kil="/home/siim/.config/scripts/kill.sh"
 
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
+alias cwm="cd ~/Downloads/packages/dwm"
 alias cdpac="cd ~/Downloads/packages"
 
 alias ewc="nvim ~/Downloads/packages/dwm/config.h"
