@@ -44,13 +44,15 @@ alias u="yay"
 alias cg="ps aux | grep"
 alias pg="pacman -Qe | grep"
 alias cam="ssh -i ~/Documents/backups/ssh/main-instance.pem admin@ec2-18-159-132-118.eu-central-1.compute.amazonaws.com"
+
 alias kil="/home/siim/.config/scripts/kill.sh"
+alias knp="~/.config/scripts/killport.sh"
+alias kgt="killall -9 -r '.*\.exe|.*SocialClub.*|.*Rockstar.*' && kill -9 $(ps aux | grep '.*PlayGTA.*' | awk '{print $2}')"
 
-#alias knm="kill $(netstat -tulpn | grep 3010 | awk '{print $7}' | rev | cut -c 6- | rev)"
-
+alias cdc="cd ~/Downloads/config"
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
-alias cwm="cd ~/Downloads/packages/dwm"
+alias cdw="cd ~/Downloads/packages/dwm"
 alias cdpac="cd ~/Downloads/packages"
 
 alias ewc="nvim ~/Downloads/packages/dwm/config.h"
