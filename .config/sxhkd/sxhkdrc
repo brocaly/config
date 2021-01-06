@@ -6,6 +6,8 @@ super + n
 super + c
 	/usr/bin/pulseaudio-ctl down 2 ; \
 	~/.config/scripts/sbu.sh
+super + g
+	kitty -e ddgr
 super + v
 	/usr/bin/pulseaudio-ctl up 2 ; \
 	~/.config/scripts/sbu.sh
