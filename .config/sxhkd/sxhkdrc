@@ -17,7 +17,7 @@ super + w
 	brave
 super + shift + b
 	blender
-super + shift + c
+super + shift + m
 	kitty -e qalc
 super + shift + e
 	unreal4
@@ -57,6 +57,10 @@ super + shift + j
 	mpc prev
 super + shift + k
 	mpc next
+super + shift + c
+	mpc volume -5
+super + shift + v
+	mpc volume +5
 
 # Games
 super + s
