@@ -1,9 +1,11 @@
 call plug#begin('~/.config/nvim/plugged')
 
-	" Theme
+	" Themes
 	Plug 'morhetz/gruvbox'
 	Plug 'joshdick/onedark.vim'
+	Plug 'arcticicestudio/nord-vim'
 
+	" Misc
 	Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'

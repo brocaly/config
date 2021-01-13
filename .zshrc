@@ -10,7 +10,7 @@ export BROWSER="brave"
 export READER="zathura"
 export FILE="ranger"
 export IMAGE="feh"
-#export PATH=$HOME/bin:/usr/local/bin:$PATH
+#export PATH=$HOME/.config/scripts/path:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export ARCHFLAGS="-arch x86_64"
 ZSH_THEME=powerlevel10k/powerlevel10k
@@ -53,6 +53,7 @@ alias cdc="cd ~/Downloads/config"
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
 alias cdw="cd ~/Downloads/packages/dwm"
+alias cdm="cd ~/Downloads/packages/dmenu"
 alias cdpac="cd ~/Downloads/packages"
 
 alias ewc="nvim ~/Downloads/packages/dwm/config.h"

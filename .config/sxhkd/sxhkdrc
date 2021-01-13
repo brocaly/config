@@ -23,6 +23,8 @@ super + shift + b
 	blender
 super + shift + c
 	kitty -e qalc
+super + shift + e
+	unreal4
 super + shift + f
 	freecad
 super + shift + g
