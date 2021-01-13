@@ -15,10 +15,6 @@ super + r
 	kitty -e ranger
 super + w
 	brave
-super + <
-	mpc next
-super + >
-	mpc prev
 super + shift + b
 	blender
 super + shift + c
@@ -57,9 +53,9 @@ super + shift + control + alt + p
 # mpc
 super + shift + p
 	mpc toggle
-super + shift + odiaeresis
+super + shift + j
 	mpc prev
-super + shift + adiaeresis
+super + shift + k
 	mpc next
 
 # Games
