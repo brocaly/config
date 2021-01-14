@@ -1,5 +1,16 @@
 [colors]
-include-file = $HOME/.config/polybar/dark-colors
+background = #2E3440
+foreground = #D8DEE9
+buffer = #4c566a
+nord6 = #ECEFF4
+nord7 = #8FBCBB
+nord8 = #88C0D0
+nord9 = #81A1C1
+urgent = #BF616A
+warning = #D08770
+notify = #EBCB8B
+success = #A3BE8C
+function = #B48EAD
 
 
 [bar/main]
@@ -20,11 +31,10 @@ line-color = #f00
 border-size = 4
 border-color = #00000000
 
-padding-left = 0
-padding-right = 2
-
+padding-left = 1
+padding-right = 1
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
 
 font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
@@ -32,7 +42,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = dwm
 modules-center = mpd
-modules-right = pulseaudio cpu memory battery temperature date powermenu
+modules-right = pulseaudio cpu memory date battery temperature powermenu
 
 tray-position = right
 tray-padding = 2
@@ -47,31 +57,22 @@ cursor-scroll = ns-resize
 [module/dwm]
 type = internal/dwm
 format = <label-tags> <label-layout> <label-title>
-; socket-path = /tmp/dwm.sock
 
 enable-tags-click = true
-;enable-tags-scroll = false
-;tags-scroll-empty = true
-;tags-scroll-reverse = false
-;tags-scroll-wrap = true
-;enable-layout-click = false
-;enable-layout-scroll = false
-;layout-scroll-wrap = false
-;layout-scroll-reverse = false
-;secondary-layout-symbol = [M]
 
 ; Separator in between shown tags
-label-separator = |
-
-label-title = %title%
-label-title-padding = 2
-label-title-forefround = ${colors.primary}
-label-title-maxlen = 80
+label-separator = 
 
 label-layout = %symbol%
 label-layout-padding = 2
 label-layout-foreground = ${colors.warning}
-label-layout-background = ${colors.primary}
+label-layout-background = ${colors.buffer}
+
+label-title = %title%
+label-title-padding = 2
+label-title-foreground = ${colors.foreground}
+label-title-underline = ${colors.nord6}
+label-title-maxlen = 80
 
 ; Text to show when currently focused window is floating
 label-floating = F
@@ -79,29 +80,29 @@ label-floating = F
 ; States: focused, unfocused, visible, urgent, empty
 ; focused = Selected tag on focused monitor
 label-focused = %name%
-label-focused-background = ${colors.background-alt}
+label-focused-background = ${colors.nord9}
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
 ; unfocused = Unselected tag on unselected monitor
 label-unfocused = %name%
+label-unfocused-background = ${colors.background}
 label-unfocused-padding = 2
 
 ; visible = Unselected tag, but occupied tag on any monitor
 label-visible = %name%
-label-visible-background = ${self.label-focused-background}
+label-visible-background = ${self.urgent}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Unselected tag with window that has urgency hint set
 label-urgent = %name%
-label-urgent-background = ${colors.alert}
+label-urgent-background = ${colors.urgent}
 label-urgent-padding = 2
 
 ; empty = Unselected and unoccupied tag
-; This can be set to an empty string to hide empty tags
-label-empty = %name%
-label-empty-background = ${colors.primary}
+label-empty = 
+label-empty-background = ${colors.background}
 label-empty-padding = 2
 
 
@@ -115,14 +116,14 @@ label-song-ellipsis = true
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-underline = #4bffdc
+format-underline = ${colors.nord8}
 label = CPU: %percentage:2%%
 
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-underline = #4bffdc
+format-underline = ${colors.nord8}
 label = MEM: %percentage_used%%
 
 
@@ -170,9 +171,8 @@ interval = 1
 
 date = " %a, %b %d %Y"
 time = %H:%M:%S
-
-format-underline = #0a6cf5
 label = %time% %date%
+format-underline = ${colors.nord8}
 
 
 [module/pulseaudio]
@@ -200,67 +200,7 @@ bar-volume-fill = ─
 bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
-
-
-[module/alsa]
-type = internal/alsa
-
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL
-label-volume-foreground = ${root.foreground}
-
-format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
-
-
-[module/battery]
-type = internal/battery
-battery = BAT0
-adapter = ADP1
-full-at = 98
-
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
-
-format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
-
-format-full-underline = ${self.format-charging-underline}
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
-animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
-animation-discharging-framerate = 750
+bar-volume-empty-foreground = ${colors.nord9}
 
 
 [module/temperature]
@@ -269,20 +209,19 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <label>
-format-underline = #f50a4d
+format-underline = ${colors.nord8}
 format-warn = <label-warn>
-format-warn-underline = ${self.format-underline}
+format-warn-underline = ${colors.urgent}
 
 label = %temperature-c%
 label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
+label-warn-foreground = ${colors.foreground}
 
 
 [module/powermenu]
 type = custom/menu
 
 expand-right = true
-
 format-spacing = 1
 
 label-open = 
