@@ -7,7 +7,7 @@ Copy everything you need to home directory, everything is already in the correct
 
 OS: Arch
 
-WM: dwm (with dmenu)
+WM: dwm, polybar
 
 Shell: zsh (p10k prompt)
 
@@ -36,14 +36,18 @@ Keybinds: sxhkd
 
 Torrent: transmission
 
+Launcher: dmenu
+
 
 ## Extra info
 
-DWM patches: centeredwindowname, fakefullscreen, fibonacci, fullgaps, gridmode, pertag. Here the patches are already applied.
+DWM patches: anybar, centeredwindowname, fakefullscreen, fullgaps, ipc, pertag, swallow.
+
+dmenu patches: border, caseinsensitive, center, fuzzymatch, lineheight.
 
 Neovim plugins: in .config folder.
 
-Brave addons: Enhancer for YT, Stylus.
+Brave addons: Enhancer for YT, Stylus, Adblock.
 
 VSCode extensions: Better Comments, Bracket Pair Colorizer 2, ES7 React/Redux/GraphQL/React-Native snippets, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, One Dark Theme, Prettier Now.
 
