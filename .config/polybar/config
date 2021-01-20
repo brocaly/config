@@ -42,7 +42,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = dwm
 modules-center = mpd
-modules-right = pulseaudio cpu memory date battery temperature powermenu
+modules-right = pulseaudio cpu memory date battery temperature
 
 tray-position = right
 tray-padding = 2

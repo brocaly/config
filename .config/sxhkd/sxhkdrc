@@ -40,6 +40,8 @@ super + shift + r
 	sxhkd </dev/null &>/dev/null &
 super + shift + s
 	scrot -p
+super + shift + t
+	feh ~/Documents/akool/ntp.png
 super + shift + u
 	unityhub
 
