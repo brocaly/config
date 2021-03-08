@@ -4,6 +4,9 @@ pfetch
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 eval "$(gh completion -s zsh)"
 
+# Default file permission rw------- (600)
+umask 077
+
 export EDITOR="nvim"
 export TERMINAL="kitty"
 export BROWSER="brave"
@@ -42,19 +45,22 @@ alias y="yay"
 alias z="zathura"
 alias u="yay"
 alias cg="ps aux | grep"
-alias pg="pacman -Qe | grep"
+alias pg="yay -Q | grep"
 alias cam="ssh -i ~/Documents/backups/ssh/main-instance.pem admin@ec2-18-159-132-118.eu-central-1.compute.amazonaws.com"
 
-alias kil="/home/siim/.config/scripts/kill.sh"
+alias kil="~/.config/scripts/kill.sh"
 alias knp="~/.config/scripts/killport.sh"
 alias kgt="killall -9 -r '.*\.exe|.*SocialClub.*|.*Rockstar.*' && kill -9 $(ps aux | grep '.*PlayGTA.*' | awk '{print $2}')"
 
 alias cdc="cd ~/Downloads/config"
+alias cdg="cd ~/Documents/media/games/"
+alias cdj="cd ~/Documents/media/games/Jumpshoot"
 alias cdp="cd ~/Documents/programs"
 alias cdv="cd ~/.config/nvim/"
 alias cdw="cd ~/Downloads/packages/dwm"
 alias cdm="cd ~/Downloads/packages/dmenu"
 alias cdpac="cd ~/Downloads/packages"
+alias cds="cd ~/.ssh"
 
 alias ewc="nvim ~/Downloads/packages/dwm/config.h"
 alias ewm="nvim ~/Downloads/packages/dwm/dwm.c"
@@ -69,5 +75,6 @@ alias exr="nvim ~/.xinitrc"
 alias ezr="nvim ~/.zshrc"
 alias ecc="nvim ~/.config/picom/picom.conf"
 alias ecs="nvim /mnt/hdd/SteamLibrary/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/cfg/autoexec.cfg"
+alias esc="nvim ~/.ssh/config"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

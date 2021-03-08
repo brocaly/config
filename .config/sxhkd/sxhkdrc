@@ -1,4 +1,3 @@
-# General
 super + Return
 	kitty
 super + n
@@ -13,14 +12,19 @@ super + v
 	~/.config/scripts/sbu.sh
 super + r
 	kitty -e ranger
+super + s
+	steam -console
 super + w
 	brave
+
 super + shift + b
 	blender
+super + shift + d
+	discord
 super + shift + m
 	kitty -e qalc
-super + shift + e
-	unreal4
+super + shift + u
+	~/.config/scripts/rpb.sh
 super + shift + f
 	freecad
 super + shift + g
@@ -30,7 +34,7 @@ super + shift + i
 super + shift + n
 	kitty -e ncmpcpp
 super + shift + h
-	kitty -e htop
+	kitty -e bashtop
 super + shift + l
 	slock
 super + shift + o
@@ -42,8 +46,10 @@ super + shift + s
 	scrot -p
 super + shift + t
 	feh ~/Documents/akool/ntp.png
-super + shift + u
+super + shift + e
 	unityhub
+super + shift + y
+	freetube-bin
 
 super + alt + c
 	code
@@ -63,7 +69,3 @@ super + shift + c
 	mpc volume -5
 super + shift + v
 	mpc volume +5
-
-# Games
-super + s
-	steam -console
