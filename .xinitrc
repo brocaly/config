@@ -15,6 +15,6 @@ picom --config ~/.config/picom/picom.conf &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
 brave &
-#discord &
+discord-canary &
 
 dwm

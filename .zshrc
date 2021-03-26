@@ -13,7 +13,6 @@ export BROWSER="brave"
 export READER="zathura"
 export FILE="ranger"
 export IMAGE="feh"
-#export PATH=$HOME/.config/scripts/path:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export ARCHFLAGS="-arch x86_64"
 ZSH_THEME=powerlevel10k/powerlevel10k
@@ -53,6 +52,7 @@ alias knp="~/.config/scripts/killport.sh"
 alias kgt="killall -9 -r '.*\.exe|.*SocialClub.*|.*Rockstar.*' && kill -9 $(ps aux | grep '.*PlayGTA.*' | awk '{print $2}')"
 
 alias cdc="cd ~/Downloads/config"
+alias cdb="cd ~/Documents/media/blender"
 alias cdg="cd ~/Documents/media/games/"
 alias cdj="cd ~/Documents/media/games/Jumpshoot"
 alias cdp="cd ~/Documents/programs"

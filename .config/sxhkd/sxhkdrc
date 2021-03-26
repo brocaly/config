@@ -43,13 +43,13 @@ super + shift + r
 	killall sxhkd & ; \
 	sxhkd </dev/null &>/dev/null &
 super + shift + s
-	scrot -p
+	scrot
 super + shift + t
 	feh ~/Documents/akool/ntp.png
 super + shift + e
 	unityhub
 super + shift + y
-	freetube-bin
+	/opt/FreeTube/freetube
 
 super + alt + c
 	code
