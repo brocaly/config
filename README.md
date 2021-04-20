@@ -2,53 +2,72 @@
 
 Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages.txt" file (yay -S --needed - < packages.txt). Programs in the "compile" folder must be manually compiled (sudo make clean install).
 
+---
 
-## Main
+## System
 
-OS: Arch
+| Type     | Program | Extensions     |
+| -------- | ------- | -------------- |
+| OS       | Arch    |                |
+| WM       | dwm     | [Many](#extra) |
+| bar      | polybar |                |
+| Shell    | zsh     | p10k prompt    |
+| Terminal | kitty   |                |
+| Launcher | dmenu   | [Many](#extra) |
+| Keybinds | sxhkd   |                |
+<br/>
 
-WM: dwm, polybar
-
-Shell: zsh (p10k prompt)
-
-Terminal: kitty
-
-Editor: neovim, vscode
-
+---
 
 ## Programs
 
-Browser: brave
+| Type        | Program       | Extensions       |
+| ----------- | ------------- | ---------------- |
+| Conf editor | neovim        | In .config       |
+| Code editor | vscode        | [Many](#extra)   |
+| Browser     | brave         | Stylus, Devtools |
+| Files       | ranger        |                  |
+| Video       | mpv           |                  |
+| Screenshot  | scrot         |                  |
+| Images      | feh           |                  |
+| Audio       | mpd + ncmpcpp |                  |
+| PDF reader  | zathura       |                  |
+| Torrent     | transmission  |                  |
+<br/>
 
-Files: ranger
+Light theme for most things.
 
-Video: mpv
+---
 
-Images: feh
+### Extra
 
-Audio: mpd + ncmpcpp
+dwm patches: 
+- anybar
+- centeredwindowname
+- fakefullscreen
+- fullgaps
+- ipc
+- pertag
+- swallow
 
-Screenshot: scrot
+dmenu patches: 
+- border
+- caseinsensitive
+- center
+- fuzzymatch
+- lineheight
 
-Reader: zathura
-
-Keybinds: sxhkd
-
-Torrent: transmission
-
-Launcher: dmenu
-
-
-## Extra info
-
-DWM patches: anybar, centeredwindowname, fakefullscreen, fullgaps, ipc, pertag, swallow.
-
-dmenu patches: border, caseinsensitive, center, fuzzymatch, lineheight.
-
-Neovim plugins: in .config folder.
-
-Brave addons: Enhancer for YT, Stylus, Adblock.
-
-VSCode extensions: Better Comments, Bracket Pair Colorizer 2, ES7 React/Redux/GraphQL/React-Native snippets, ESLint, Live Sass Compiler, Live Server, Material Icon Theme, One Dark Theme, Prettier Now.
-
-Dark mode for most apps and websites.
+vscode extensions:
+- Auto Import
+- Better Comments
+- Bracket Pair Colorizer 2
+- Docker
+- ES7 React... Snippets
+- GitLens
+- Gruvbox Theme
+- Live Sass Compiler
+- Live Server
+- Markdown All In One
+- Material Icon Theme
+- Settings Sync
+- \+ Language specific stuff

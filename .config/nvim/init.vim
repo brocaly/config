@@ -4,7 +4,7 @@ source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/coc.vim
 
 " General
-colo nord
+colo gruvbox
 set nu rnu cursorline
 set tabstop=2 shiftwidth=2
 set autoindent smartindent
