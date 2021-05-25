@@ -1,6 +1,6 @@
 ## How to install
 
-Copy everything you need to home directory, everything is already in the correct folder. Install packages listed in the "packages.txt" file (yay -S --needed - < packages.txt). Programs in the "compile" folder must be manually compiled (sudo make clean install).
+Copy everything you need to home directory, everything is already in the correct folder. Install packages listed "packages.txt" (yay -S --needed - < packages.txt). Compile programs in "compile" folder manually (sudo make clean install).
 
 ---
 
