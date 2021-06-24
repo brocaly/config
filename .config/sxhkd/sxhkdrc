@@ -21,20 +21,22 @@ super + shift + b
 	blender
 super + shift + d
 	discord
+super + shift + g
+	gimp
 super + shift + m
 	kitty -e qalc
 super + shift + u
 	~/.config/scripts/rpb.sh
 super + shift + f
 	freecad
-super + shift + g
-	glava --force-mod=radial
+super + shift + e
+	unityhub
 super + shift + i
 	brave --incognito
 super + shift + n
 	kitty -e ncmpcpp
 super + shift + h
-	kitty -e bashtop
+	kitty -e bpytop
 super + shift + l
 	slock
 super + shift + o
@@ -46,8 +48,6 @@ super + shift + s
 	scrot
 super + shift + t
 	feh ~/Documents/akool/ntp.png
-super + shift + e
-	unityhub
 super + shift + y
 	/opt/FreeTube/freetube
 
@@ -69,3 +69,7 @@ super + shift + c
 	mpc volume -5
 super + shift + v
 	mpc volume +5
+
+# verdun
+#e + any
+	#~/.config/scripts/binocs.sh

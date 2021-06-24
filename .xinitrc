@@ -7,6 +7,10 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # scripts
 #~/.config/scripts/sb.sh </dev/null &>/dev/null &
 
+# for vscode github login to work
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
 # programs
 mpd &
 sxhkd &
@@ -15,6 +19,5 @@ picom --config ~/.config/picom/picom.conf &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
 brave &
-discord-canary &
 
 dwm

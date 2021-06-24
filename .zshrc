@@ -5,7 +5,7 @@ source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 eval "$(gh completion -s zsh)"
 
 # Default file permission rw------- (600)
-umask 077
+umask 076
 
 export EDITOR="nvim"
 export TERMINAL="kitty"
@@ -56,6 +56,7 @@ alias cdb="cd ~/Documents/media/blender"
 alias cdg="cd ~/Documents/media/games/"
 alias cdj="cd ~/Documents/media/games/Jumpshoot"
 alias cdp="cd ~/Documents/programs"
+alias cdpp="cd ~/Documents/programs/pinecrypt"
 alias cdv="cd ~/.config/nvim/"
 alias cdw="cd ~/Downloads/packages/dwm"
 alias cdm="cd ~/Downloads/packages/dmenu"

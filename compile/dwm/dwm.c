@@ -950,6 +950,7 @@ focus(Client *c)
 	}
 	selmon->sel = c;
 	drawbars();
+
 }
 
 /* there are some broken focus acquiring clients needing extra handling */
@@ -1684,6 +1685,12 @@ setfocus(Client *c)
 			(unsigned char *) &(c->win), 1);
 	}
 	sendevent(c, wmatom[WMTakeFocus]);
+
+	/* verdun hax */
+	FILE *fp;
+  fp = fopen("/tmp/test.txt", "w+");
+  fprintf(fp, c->name);
+  fclose(fp);
 }
 
 void
